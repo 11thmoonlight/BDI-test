@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(../Wild-Olive-wallpaper-cloudy-sky.jpg);
+  background-position: right;
+  background-repeat: repeat-y;
+  box-sizing: border-box;
+}
+
+.qu-flex {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-start {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: rgb(3, 122, 126);
+  color: rgba(240, 248, 255);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-start:hover {
+  transform: scale(1.1);
+}
+
+.description {
+  font-size: 1.4rem;
+  padding: 1rem;
+  background-color: rgba(240, 248, 255, 0.9);
+  color: rgb(1, 103, 106);
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: rgba(240, 248, 255, 0.9);
+  color: rgb(3, 122, 126);
+  display: inline;
+  border-radius: 10px;
+}
+
+.question {
+  font-size: 1.4rem;
+  background-color: rgba(143, 122, 4, 0.9);
+  color: rgba(240, 248, 255);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(143, 122, 4, 0.429);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.btn-option {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem;
+
+  background-color: rgb(3, 122, 126);
+  color: rgba(240, 248, 255);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-option:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.finish-screen {
+  margin: 4rem auto;
+  font-size: 1.4rem;
+  padding: 1rem;
+  background-color: rgba(240, 248, 255, 0.9);
+  color: rgb(1, 103, 106);
+  width: 40%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.progress {
+  font-size: 1rem;
+  text-align: center;
+}
+
+progress {
+  -webkit-appearance: none;
+  width: 20rem;
+  height: 12px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: rgba(143, 122, 4, 0.429);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image: linear-gradient(-45deg);
+}
