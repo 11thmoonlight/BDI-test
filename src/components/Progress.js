@@ -6,8 +6,19 @@ export default function Progress({ index, numQuestions, answer }) {
         value={index + Number(answer !== null)}
       ></progress>
 
-      <p>
-        Question <strong>{index + 1}</strong> / {numQuestions}
+      <p className="progress-text">
+        Question{" "}
+        <strong
+          style={{
+            color: "#fff",
+            backgroundColor: "rgb(143, 122, 4)",
+            padding: ".15rem",
+            borderRadius: "5px",
+          }}
+        >
+          {index + 1}
+        </strong>{" "}
+        / {numQuestions}
       </p>
     </div>
   );
