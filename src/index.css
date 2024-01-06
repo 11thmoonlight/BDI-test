@@ -44,6 +44,11 @@ body {
   animation: hover 0.9s infinite;
 }
 
+.btn-start:focus {
+  background-color: rgb(195, 232, 234, 0.9);
+  color: rgb(1, 103, 106);
+}
+
 .description {
   font-size: 1.4rem;
   padding: 1rem;
@@ -175,5 +180,15 @@ progress[value]::-webkit-progress-value {
 @media screen and (max-width: 525px) {
   .finish-screen {
     width: 70%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .finish-screen {
+    width: 80%;
+  }
+
+  body {
+    font-size: 50%;
   }
 }
