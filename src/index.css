@@ -184,11 +184,11 @@ progress[value]::-webkit-progress-value {
 }
 
 @media screen and (max-width: 440px) {
-  .finish-screen {
-    width: 80%;
-  }
-
   body {
     font-size: 30%;
+  }
+
+  .finish-screen {
+    width: 80%;
   }
 }
