@@ -13,7 +13,7 @@ This is a simple React-based web application that implements the **Beck Depressi
 ## 🛠️ Technologies Used
 
 - ⚛️ React
-- 💅 CSS / TailwindCSS *(or your styling solution)*
+- 💅 CSS
 - ⚙️ JavaScript (ES6+)
 
 ## 🚀 Getting Started
@@ -22,7 +22,7 @@ To run the project locally:
 
 1. **Clone the repository:**
    
-git clone https://github.com/your-username/bdi-react-app.git
+git clone https://github.com/11thmoonlight/BDI-test.git
 cd bdi-react-app
 
 2. **Install dependencies:**
