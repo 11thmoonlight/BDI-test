@@ -24,7 +24,7 @@ To run the project locally:
    
 git clone https://github.com/11thmoonlight/BDI-test.git
 
-cd bdi-react-app
+cd BDI-test
 
 2. **Install dependencies:**
 
