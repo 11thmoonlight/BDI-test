@@ -23,10 +23,11 @@ To run the project locally:
 1. **Clone the repository:**
    
 git clone https://github.com/11thmoonlight/BDI-test.git
+
 cd bdi-react-app
 
 2. **Install dependencies:**
-3. 
+
 npm install
 
 4. **Start the development server:**
